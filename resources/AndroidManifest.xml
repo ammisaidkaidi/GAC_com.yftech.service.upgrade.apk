@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    package="com.yftech.service.upgrade"
+    platformBuildVersionCode="1"
+    platformBuildVersionName="1">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.RECOVERY"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission
+        android:label="yftech.upgrade"
+        android:name="com.yftech.permission.service.upgrade.upgrade"
+        android:protectionLevel="preinstalled|signature"
+        android:permissionGroup="com.yftech.permissions"
+        android:description="@string/yftech_permission_upgrade"/>
+    <application
+        android:theme="@style/Theme.UpgradeService"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.yftech.service.upgrade.CarApplication"
+        android:persistent="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <uses-library android:name="com.yftech.car.framework"/>
+        <uses-library android:name="com.yftech.vehicle.internal.adapter"/>
+        <uses-library android:name="com.yftech.vehicle.sdk"/>
+        <activity android:name="com.yftech.service.upgrade.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.yftech.service.upgrade.CarUpgradeService"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.yftech.action.upgradeservice.start"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.yftech.service.upgrade.receiver.CarBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

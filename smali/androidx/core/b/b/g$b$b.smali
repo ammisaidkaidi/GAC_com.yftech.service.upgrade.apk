@@ -1,0 +1,42 @@
+.class Landroidx/core/b/b/g$b$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/annotation/am;
+    a = 0x1d
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/core/b/b/g$b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 483
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static a(Landroid/content/res/Resources$Theme;)V
+    .locals 0
+    .param p0    # Landroid/content/res/Resources$Theme;
+        .annotation build Landroidx/annotation/ah;
+        .end annotation
+    .end param
+
+    .line 485
+    invoke-virtual {p0}, Landroid/content/res/Resources$Theme;->rebase()V
+
+    return-void
+.end method

@@ -1,0 +1,17 @@
+package androidx.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE, ElementType.METHOD, ElementType.CONSTRUCTOR, ElementType.FIELD, ElementType.PACKAGE})
+@Retention(RetentionPolicy.CLASS)
+/* loaded from: /home/user/work/dex/classes.dex */
+public @interface am {
+    @z(a = 1)
+    int a() default 1;
+
+    @z(a = 1)
+    int b() default 1;
+}

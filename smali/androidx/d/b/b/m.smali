@@ -1,0 +1,2067 @@
+.class public Landroidx/d/b/b/m;
+.super Landroidx/d/b/b/e;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/d/b/b/m$a;
+    }
+.end annotation
+
+
+# static fields
+.field private static final A:Ljava/lang/String; = "KeyTimeCycle"
+
+.field static final y:Ljava/lang/String; = "KeyTimeCycle"
+
+.field public static final z:I = 0x3
+
+
+# instance fields
+.field private B:Ljava/lang/String;
+
+.field private C:I
+
+.field private D:F
+
+.field private E:F
+
+.field private F:F
+
+.field private G:F
+
+.field private H:F
+
+.field private I:F
+
+.field private J:F
+
+.field private K:F
+
+.field private L:F
+
+.field private M:F
+
+.field private N:F
+
+.field private O:F
+
+.field private P:I
+
+.field private Q:F
+
+.field private R:F
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 38
+    invoke-direct {p0}, Landroidx/d/b/b/e;-><init>()V
+
+    const/4 v0, -0x1
+
+    .line 42
+    iput v0, p0, Landroidx/d/b/b/m;->C:I
+
+    const/high16 v0, 0x7fc00000    # Float.NaN
+
+    .line 43
+    iput v0, p0, Landroidx/d/b/b/m;->D:F
+
+    .line 44
+    iput v0, p0, Landroidx/d/b/b/m;->E:F
+
+    .line 45
+    iput v0, p0, Landroidx/d/b/b/m;->F:F
+
+    .line 46
+    iput v0, p0, Landroidx/d/b/b/m;->G:F
+
+    .line 47
+    iput v0, p0, Landroidx/d/b/b/m;->H:F
+
+    .line 48
+    iput v0, p0, Landroidx/d/b/b/m;->I:F
+
+    .line 49
+    iput v0, p0, Landroidx/d/b/b/m;->J:F
+
+    .line 50
+    iput v0, p0, Landroidx/d/b/b/m;->K:F
+
+    .line 51
+    iput v0, p0, Landroidx/d/b/b/m;->L:F
+
+    .line 52
+    iput v0, p0, Landroidx/d/b/b/m;->M:F
+
+    .line 53
+    iput v0, p0, Landroidx/d/b/b/m;->N:F
+
+    .line 54
+    iput v0, p0, Landroidx/d/b/b/m;->O:F
+
+    const/4 v1, 0x0
+
+    .line 55
+    iput v1, p0, Landroidx/d/b/b/m;->P:I
+
+    .line 56
+    iput v0, p0, Landroidx/d/b/b/m;->Q:F
+
+    const/4 v0, 0x0
+
+    .line 57
+    iput v0, p0, Landroidx/d/b/b/m;->R:F
+
+    const/4 v0, 0x3
+
+    .line 61
+    iput v0, p0, Landroidx/d/b/b/m;->e:I
+
+    .line 62
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    iput-object v0, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method static synthetic a(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->D:F
+
+    return p0
+.end method
+
+.method static synthetic a(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->D:F
+
+    return p1
+.end method
+
+.method static synthetic a(Landroidx/d/b/b/m;I)I
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->C:I
+
+    return p1
+.end method
+
+.method static synthetic a(Landroidx/d/b/b/m;Ljava/lang/String;)Ljava/lang/String;
+    .locals 0
+
+    .line 38
+    iput-object p1, p0, Landroidx/d/b/b/m;->B:Ljava/lang/String;
+
+    return-object p1
+.end method
+
+.method static synthetic b(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->E:F
+
+    return p0
+.end method
+
+.method static synthetic b(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->E:F
+
+    return p1
+.end method
+
+.method static synthetic b(Landroidx/d/b/b/m;I)I
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->P:I
+
+    return p1
+.end method
+
+.method static synthetic c(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->F:F
+
+    return p0
+.end method
+
+.method static synthetic c(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->F:F
+
+    return p1
+.end method
+
+.method static synthetic d(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->Q:F
+
+    return p1
+.end method
+
+.method static synthetic d(Landroidx/d/b/b/m;)I
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->C:I
+
+    return p0
+.end method
+
+.method static synthetic e(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->R:F
+
+    return p1
+.end method
+
+.method static synthetic e(Landroidx/d/b/b/m;)I
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->P:I
+
+    return p0
+.end method
+
+.method static synthetic f(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->Q:F
+
+    return p0
+.end method
+
+.method static synthetic f(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->J:F
+
+    return p1
+.end method
+
+.method static synthetic g(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->R:F
+
+    return p0
+.end method
+
+.method static synthetic g(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->G:F
+
+    return p1
+.end method
+
+.method static synthetic h(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->J:F
+
+    return p0
+.end method
+
+.method static synthetic h(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->H:F
+
+    return p1
+.end method
+
+.method static synthetic i(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->G:F
+
+    return p0
+.end method
+
+.method static synthetic i(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->K:F
+
+    return p1
+.end method
+
+.method static synthetic j(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->H:F
+
+    return p0
+.end method
+
+.method static synthetic j(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->I:F
+
+    return p1
+.end method
+
+.method static synthetic k(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->K:F
+
+    return p0
+.end method
+
+.method static synthetic k(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->L:F
+
+    return p1
+.end method
+
+.method static synthetic l(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->I:F
+
+    return p0
+.end method
+
+.method static synthetic l(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->M:F
+
+    return p1
+.end method
+
+.method static synthetic m(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->L:F
+
+    return p0
+.end method
+
+.method static synthetic m(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->N:F
+
+    return p1
+.end method
+
+.method static synthetic n(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->M:F
+
+    return p0
+.end method
+
+.method static synthetic n(Landroidx/d/b/b/m;F)F
+    .locals 0
+
+    .line 38
+    iput p1, p0, Landroidx/d/b/b/m;->O:F
+
+    return p1
+.end method
+
+.method static synthetic o(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->N:F
+
+    return p0
+.end method
+
+.method static synthetic p(Landroidx/d/b/b/m;)F
+    .locals 0
+
+    .line 38
+    iget p0, p0, Landroidx/d/b/b/m;->O:F
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 1
+
+    .line 67
+    sget-object v0, Landroidx/d/e/m$m;->KeyTimeCycle:[I
+
+    invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+
+    move-result-object p1
+
+    .line 68
+    invoke-static {p0, p1}, Landroidx/d/b/b/m$a;->a(Landroidx/d/b/b/m;Landroid/content/res/TypedArray;)V
+
+    return-void
+.end method
+
+.method public a(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 255
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto/16 :goto_0
+
+    :sswitch_0
+    const-string v0, "mTranslationZ"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0xd
+
+    goto/16 :goto_1
+
+    :sswitch_1
+    const-string v0, "curveFit"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto/16 :goto_1
+
+    :sswitch_2
+    const-string v0, "alpha"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x0
+
+    goto/16 :goto_1
+
+    :sswitch_3
+    const-string v0, "transitionPathRotate"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0xa
+
+    goto/16 :goto_1
+
+    :sswitch_4
+    const-string v0, "elevation"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x2
+
+    goto :goto_1
+
+    :sswitch_5
+    const-string v0, "rotation"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x4
+
+    goto :goto_1
+
+    :sswitch_6
+    const-string v0, "scaleY"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x8
+
+    goto :goto_1
+
+    :sswitch_7
+    const-string v0, "scaleX"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x7
+
+    goto :goto_1
+
+    :sswitch_8
+    const-string v0, "progress"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x3
+
+    goto :goto_1
+
+    :sswitch_9
+    const-string v0, "translationY"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0xc
+
+    goto :goto_1
+
+    :sswitch_a
+    const-string v0, "translationX"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0xb
+
+    goto :goto_1
+
+    :sswitch_b
+    const-string v0, "rotationY"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x6
+
+    goto :goto_1
+
+    :sswitch_c
+    const-string v0, "rotationX"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x5
+
+    goto :goto_1
+
+    :sswitch_d
+    const-string v0, "transitionEasing"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x9
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    const/4 p1, -0x1
+
+    :goto_1
+    packed-switch p1, :pswitch_data_0
+
+    goto :goto_2
+
+    .line 296
+    :pswitch_0
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->N:F
+
+    goto :goto_2
+
+    .line 293
+    :pswitch_1
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->M:F
+
+    goto :goto_2
+
+    .line 290
+    :pswitch_2
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->L:F
+
+    goto :goto_2
+
+    .line 287
+    :pswitch_3
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->I:F
+
+    goto :goto_2
+
+    .line 284
+    :pswitch_4
+    invoke-virtual {p2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Landroidx/d/b/b/m;->B:Ljava/lang/String;
+
+    goto :goto_2
+
+    .line 281
+    :pswitch_5
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->K:F
+
+    goto :goto_2
+
+    .line 278
+    :pswitch_6
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->J:F
+
+    goto :goto_2
+
+    .line 275
+    :pswitch_7
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->H:F
+
+    goto :goto_2
+
+    .line 272
+    :pswitch_8
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->G:F
+
+    goto :goto_2
+
+    .line 269
+    :pswitch_9
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->F:F
+
+    goto :goto_2
+
+    .line 266
+    :pswitch_a
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->O:F
+
+    goto :goto_2
+
+    .line 263
+    :pswitch_b
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->E:F
+
+    goto :goto_2
+
+    .line 260
+    :pswitch_c
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->b(Ljava/lang/Object;)I
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->C:I
+
+    goto :goto_2
+
+    .line 257
+    :pswitch_d
+    invoke-virtual {p0, p2}, Landroidx/d/b/b/m;->a(Ljava/lang/Object;)F
+
+    move-result p1
+
+    iput p1, p0, Landroidx/d/b/b/m;->D:F
+
+    :goto_2
+    return-void
+
+    :sswitch_data_0
+    .sparse-switch
+        -0x6c0d7d20 -> :sswitch_d
+        -0x4a771f66 -> :sswitch_c
+        -0x4a771f65 -> :sswitch_b
+        -0x490b9c39 -> :sswitch_a
+        -0x490b9c38 -> :sswitch_9
+        -0x3bab3dd3 -> :sswitch_8
+        -0x3621dfb2 -> :sswitch_7
+        -0x3621dfb1 -> :sswitch_6
+        -0x266f082 -> :sswitch_5
+        -0x42d1a3 -> :sswitch_4
+        0x2382115 -> :sswitch_3
+        0x589b15e -> :sswitch_2
+        0x2283b8a2 -> :sswitch_1
+        0x4e897cd6 -> :sswitch_0
+    .end sparse-switch
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public a(Ljava/util/HashMap;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Landroidx/d/b/b/w;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 172
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, " KeyTimeCycles do not support SplineSet"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public a(Ljava/util/HashSet;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/HashSet<",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 78
+    iget v0, p0, Landroidx/d/b/b/m;->D:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, "alpha"
+
+    .line 79
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 81
+    :cond_0
+    iget v0, p0, Landroidx/d/b/b/m;->E:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "elevation"
+
+    .line 82
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 84
+    :cond_1
+    iget v0, p0, Landroidx/d/b/b/m;->F:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    const-string v0, "rotation"
+
+    .line 85
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 87
+    :cond_2
+    iget v0, p0, Landroidx/d/b/b/m;->G:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    const-string v0, "rotationX"
+
+    .line 88
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 90
+    :cond_3
+    iget v0, p0, Landroidx/d/b/b/m;->H:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    const-string v0, "rotationY"
+
+    .line 91
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 93
+    :cond_4
+    iget v0, p0, Landroidx/d/b/b/m;->L:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    const-string v0, "translationX"
+
+    .line 94
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 96
+    :cond_5
+    iget v0, p0, Landroidx/d/b/b/m;->M:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    const-string v0, "translationY"
+
+    .line 97
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 99
+    :cond_6
+    iget v0, p0, Landroidx/d/b/b/m;->N:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_7
+
+    const-string v0, "translationZ"
+
+    .line 100
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 102
+    :cond_7
+    iget v0, p0, Landroidx/d/b/b/m;->I:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_8
+
+    const-string v0, "transitionPathRotate"
+
+    .line 103
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 105
+    :cond_8
+    iget v0, p0, Landroidx/d/b/b/m;->J:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    const-string v0, "scaleX"
+
+    .line 106
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 108
+    :cond_9
+    iget v0, p0, Landroidx/d/b/b/m;->K:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_a
+
+    const-string v0, "scaleY"
+
+    .line 109
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 111
+    :cond_a
+    iget v0, p0, Landroidx/d/b/b/m;->O:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_b
+
+    const-string v0, "progress"
+
+    .line 112
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    .line 114
+    :cond_b
+    iget-object v0, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_c
+
+    .line 115
+    iget-object p0, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    invoke-virtual {p0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    .line 116
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "CUSTOM,"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_c
+    return-void
+.end method
+
+.method public b(Ljava/util/HashMap;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Integer;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 122
+    iget v0, p0, Landroidx/d/b/b/m;->C:I
+
+    const/4 v1, -0x1
+
+    if-ne v0, v1, :cond_0
+
+    return-void
+
+    .line 125
+    :cond_0
+    iget v0, p0, Landroidx/d/b/b/m;->D:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "alpha"
+
+    .line 126
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 128
+    :cond_1
+    iget v0, p0, Landroidx/d/b/b/m;->E:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    const-string v0, "elevation"
+
+    .line 129
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 131
+    :cond_2
+    iget v0, p0, Landroidx/d/b/b/m;->F:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_3
+
+    const-string v0, "rotation"
+
+    .line 132
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 134
+    :cond_3
+    iget v0, p0, Landroidx/d/b/b/m;->G:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    const-string v0, "rotationX"
+
+    .line 135
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 137
+    :cond_4
+    iget v0, p0, Landroidx/d/b/b/m;->H:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_5
+
+    const-string v0, "rotationY"
+
+    .line 138
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 140
+    :cond_5
+    iget v0, p0, Landroidx/d/b/b/m;->L:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_6
+
+    const-string v0, "translationX"
+
+    .line 141
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 143
+    :cond_6
+    iget v0, p0, Landroidx/d/b/b/m;->M:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_7
+
+    const-string v0, "translationY"
+
+    .line 144
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 146
+    :cond_7
+    iget v0, p0, Landroidx/d/b/b/m;->N:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_8
+
+    const-string v0, "translationZ"
+
+    .line 147
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 149
+    :cond_8
+    iget v0, p0, Landroidx/d/b/b/m;->I:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_9
+
+    const-string v0, "transitionPathRotate"
+
+    .line 150
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 152
+    :cond_9
+    iget v0, p0, Landroidx/d/b/b/m;->J:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_a
+
+    const-string v0, "scaleX"
+
+    .line 153
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 155
+    :cond_a
+    iget v0, p0, Landroidx/d/b/b/m;->J:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_b
+
+    const-string v0, "scaleY"
+
+    .line 156
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 158
+    :cond_b
+    iget v0, p0, Landroidx/d/b/b/m;->O:F
+
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_c
+
+    const-string v0, "progress"
+
+    .line 159
+    iget v1, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 161
+    :cond_c
+    iget-object v0, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_d
+
+    .line 162
+    iget-object v0, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_d
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    .line 163
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "CUSTOM,"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    iget v2, p0, Landroidx/d/b/b/m;->C:I
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :cond_d
+    return-void
+.end method
+
+.method public c(Ljava/util/HashMap;)V
+    .locals 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Landroidx/d/b/b/x;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 176
+    invoke-virtual {p1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_0
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_3
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    .line 177
+    invoke-virtual {p1, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v3, v2
+
+    check-cast v3, Landroidx/d/b/b/x;
+
+    const-string v2, "CUSTOM"
+
+    .line 178
+    invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    const/4 v4, 0x1
+
+    if-eqz v2, :cond_1
+
+    const-string v2, "CUSTOM"
+
+    .line 179
+    invoke-virtual {v2}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    add-int/2addr v2, v4
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 180
+    iget-object v2, p0, Landroidx/d/b/b/m;->f:Ljava/util/HashMap;
+
+    invoke-virtual {v2, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v6, v1
+
+    check-cast v6, Landroidx/d/e/b;
+
+    if-eqz v6, :cond_0
+
+    .line 182
+    move-object v4, v3
+
+    check-cast v4, Landroidx/d/b/b/x$b;
+
+    iget v5, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v7, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v8, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v9, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v4 .. v9}, Landroidx/d/b/b/x$b;->a(ILandroidx/d/e/b;FIF)V
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v2, -0x1
+
+    .line 186
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+
+    move-result v5
+
+    sparse-switch v5, :sswitch_data_0
+
+    goto/16 :goto_1
+
+    :sswitch_0
+    const-string v4, "alpha"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x0
+
+    goto/16 :goto_2
+
+    :sswitch_1
+    const-string v4, "transitionPathRotate"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x5
+
+    goto/16 :goto_2
+
+    :sswitch_2
+    const-string v5, "elevation"
+
+    invoke-virtual {v1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_2
+
+    goto :goto_2
+
+    :sswitch_3
+    const-string v4, "rotation"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x2
+
+    goto :goto_2
+
+    :sswitch_4
+    const-string v4, "scaleY"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x7
+
+    goto :goto_2
+
+    :sswitch_5
+    const-string v4, "scaleX"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x6
+
+    goto :goto_2
+
+    :sswitch_6
+    const-string v4, "progress"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/16 v4, 0xb
+
+    goto :goto_2
+
+    :sswitch_7
+    const-string v4, "translationZ"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/16 v4, 0xa
+
+    goto :goto_2
+
+    :sswitch_8
+    const-string v4, "translationY"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/16 v4, 0x9
+
+    goto :goto_2
+
+    :sswitch_9
+    const-string v4, "translationX"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/16 v4, 0x8
+
+    goto :goto_2
+
+    :sswitch_a
+    const-string v4, "rotationY"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x4
+
+    goto :goto_2
+
+    :sswitch_b
+    const-string v4, "rotationX"
+
+    invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    const/4 v4, 0x3
+
+    goto :goto_2
+
+    :cond_2
+    :goto_1
+    move v4, v2
+
+    :goto_2
+    packed-switch v4, :pswitch_data_0
+
+    const-string v2, "KeyTimeCycles"
+
+    .line 248
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "UNKNOWN addValues \""
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "\""
+
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto/16 :goto_0
+
+    .line 243
+    :pswitch_0
+    iget v1, p0, Landroidx/d/b/b/m;->O:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 244
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->O:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 238
+    :pswitch_1
+    iget v1, p0, Landroidx/d/b/b/m;->N:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 239
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->N:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 233
+    :pswitch_2
+    iget v1, p0, Landroidx/d/b/b/m;->M:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 234
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->M:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 228
+    :pswitch_3
+    iget v1, p0, Landroidx/d/b/b/m;->L:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 229
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->L:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 223
+    :pswitch_4
+    iget v1, p0, Landroidx/d/b/b/m;->K:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 224
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->K:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 218
+    :pswitch_5
+    iget v1, p0, Landroidx/d/b/b/m;->J:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 219
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->J:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 213
+    :pswitch_6
+    iget v1, p0, Landroidx/d/b/b/m;->I:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 214
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->I:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 208
+    :pswitch_7
+    iget v1, p0, Landroidx/d/b/b/m;->H:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 209
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->H:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 203
+    :pswitch_8
+    iget v1, p0, Landroidx/d/b/b/m;->G:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 204
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->G:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 198
+    :pswitch_9
+    iget v1, p0, Landroidx/d/b/b/m;->F:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 199
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->F:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 193
+    :pswitch_a
+    iget v1, p0, Landroidx/d/b/b/m;->E:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 194
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->E:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    .line 188
+    :pswitch_b
+    iget v1, p0, Landroidx/d/b/b/m;->D:F
+
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 189
+    iget v4, p0, Landroidx/d/b/b/m;->b:I
+
+    iget v5, p0, Landroidx/d/b/b/m;->D:F
+
+    iget v6, p0, Landroidx/d/b/b/m;->Q:F
+
+    iget v7, p0, Landroidx/d/b/b/m;->P:I
+
+    iget v8, p0, Landroidx/d/b/b/m;->R:F
+
+    invoke-virtual/range {v3 .. v8}, Landroidx/d/b/b/x;->a(IFFIF)V
+
+    goto/16 :goto_0
+
+    :cond_3
+    return-void
+
+    :sswitch_data_0
+    .sparse-switch
+        -0x4a771f66 -> :sswitch_b
+        -0x4a771f65 -> :sswitch_a
+        -0x490b9c39 -> :sswitch_9
+        -0x490b9c38 -> :sswitch_8
+        -0x490b9c37 -> :sswitch_7
+        -0x3bab3dd3 -> :sswitch_6
+        -0x3621dfb2 -> :sswitch_5
+        -0x3621dfb1 -> :sswitch_4
+        -0x266f082 -> :sswitch_3
+        -0x42d1a3 -> :sswitch_2
+        0x2382115 -> :sswitch_1
+        0x589b15e -> :sswitch_0
+    .end sparse-switch
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

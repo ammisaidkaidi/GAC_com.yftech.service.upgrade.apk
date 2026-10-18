@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:sharedUserId="android.uid.system" package="com.yftech.service.upgrade" platformBuildVersionCode="1" platformBuildVersionName="1.0">
+    <uses-permission android:name="android.permission.RECOVERY"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:description="@string/yftech_permission_upgrade" android:label="yftech.upgrade" android:name="com.yftech.permission.service.upgrade.upgrade" android:permissionGroup="com.yftech.permissions" android:protectionLevel="signature|preinstalled"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.yftech.service.upgrade.CarApplication" android:persistent="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.UpgradeService">
+        <uses-library android:name="com.yftech.car.framework"/>
+        <uses-library android:name="com.yftech.vehicle.internal.adapter"/>
+        <uses-library android:name="com.yftech.vehicle.sdk"/>
+        <activity android:name="com.yftech.service.upgrade.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <service android:directBootAware="true" android:exported="true" android:name="com.yftech.service.upgrade.CarUpgradeService">
+            <intent-filter>
+                <action android:name="com.yftech.action.upgradeservice.start"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.yftech.service.upgrade.receiver.CarBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

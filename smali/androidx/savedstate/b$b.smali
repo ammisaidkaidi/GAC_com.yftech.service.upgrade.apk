@@ -1,0 +1,21 @@
+.class public interface abstract Landroidx/savedstate/b$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/savedstate/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a()Landroid/os/Bundle;
+    .annotation build Landroidx/annotation/ah;
+    .end annotation
+.end method
